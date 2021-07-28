@@ -1,0 +1,26 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "This is a simple oauth twitter application which provides Login with twitter, displays user followers.",
+  "main": "server/server.js",
+  "dependencies": {
+    "concurrently": "^5.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "client": "cd frontend && npm install && npm start",
+    "server": "cd server && npm install && npm start",
+    "build": "cd frontend && npm install && npm run build && cd .. && cd server && npm install && cd ..",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MooseCodee/CRM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MooseCodee/CRM/issues"
+  },
+  "homepage": "https://github.com/MooseCodee/CRM#readme"
+}
